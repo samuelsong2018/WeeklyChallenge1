@@ -11,6 +11,8 @@ public class Main {
         //Capture the input as an integer.
         int num = scan.nextInt();
         for(int firstNumber=1; num>=firstNumber; firstNumber++) {
+
+            //Variable i is isolated within the loop below
             { boolean isPrime=true;
                 int i=2;
                 while(i<= firstNumber/2) {
